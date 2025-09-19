@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h1, h3, h4 {
+    margin: 10px 0;
+}
+
+.em {
+    color: orange;
+}
+
+.but {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#dow {
+    background-color: orange;
+    border: none;
+}
+
+#let {
+    background-color: grey;
+    color: white;
+    border: none;
+}
+
+/* Hide by default */
+.cv-hidden,
+.contact-hidden {
+    display: none;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+    padding: 10px;
+}
+
+.left-side, .right-side {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.my, .edu, .sk, .ex, .achievements {
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 15px;
+    text-align: left;
+    background-color: #1a1a1a;
+}
+
+.about, .jo, .ski, .exp {
+    color: orange;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Scroll Up button */
+.scroll-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 16px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+    font-size: 16px;
+}
